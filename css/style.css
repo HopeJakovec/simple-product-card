@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Montserrat:wght@700&family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #333;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 20px auto;
+
+    background: #93B6B7 url(../images/Radio.png) no-repeat left bottom;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+}
+
+.container .container__header {
+    margin-top: 107px;
+    text-align: center;
+
+    font-family: 'Arvo', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 48px;
+    color: #fff;
+}
+
+.container .container__text {
+    max-width: 540px;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    color: #fff;
+}
+
+.container .container__items {
+    max-width: 960px;
+    width: 100%;
+    margin: 58px auto 160px;
+
+    display: flex;
+    justify-content: space-around;
+
+    background-color: #fff;
+    border-radius: 6px;
+}
+
+.container__items .item {
+    max-width: 161px;
+    width: 100%;
+    /* margin: 42px auto; */
+    margin-top: 42px;
+    margin-left: 79px;
+    padding-right: 79px;
+    margin-bottom: 42px;
+    border-right: 1px solid #E4E4E4;
+}
+
+.container__items .item-header3 {
+    margin-top: 11px;
+    text-align: center;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 2.4px;
+    color: #757575;
+}
+
+.container__items .item:nth-child(odd) + .item .item-header3 {
+    display: inline-block;
+}
+
+.container__items .item:nth-child(odd) + .item .item-header3:nth-child(1) {
+    padding: 3px 8px;
+    
+    background-color: #8D76BE;
+    border-radius: 4px;
+    font-size: 8px;
+    line-height: 10px;
+    letter-spacing: 1.92px;
+    color: #fff;
+}
+
+.container__items .item:nth-child(odd) + .item .item-header3:nth-child(2) {
+    margin-left: 14px;
+}
+
+.container__items .item-price {
+    margin-top: 16px;
+    text-align: center;
+
+    font-family: 'Arvo', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 89px;
+    color: #212121;
+}
+
+.container__items .item-price:nth-child(odd) {
+    color: #F05638;
+}
+
+.container__items .item-price sup {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 48px;
+    color: #818181;
+}
+
+.container__items .item-header4 {
+    margin-top: 12px;
+    text-align: center;
+
+    font-family: 'Arvo', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #212121;
+}
+
+.container__items .item-GB {
+    margin-top: 13px;
+    text-align: center;
+
+    font-family: 'Arvo', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #212121;
+}
+
+.container__items .item-button {
+    margin: 27px auto 28px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 2.4px;
+    color: #525252;
+
+    background-color: #fff;
+    border: 1px solid #9FA3A7;
+    border-radius: 100px;
+    padding: 16px 23px;
+}
+
+.container__items .item-button:nth-child(odd) {
+    background: #FFC80A;
+    color: #fff;
+    border: none
+}
